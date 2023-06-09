@@ -1,0 +1,49 @@
+.site-header {
+    background-color: rgb(102, 106, 106);
+    opacity: 0.8;
+    margin-top: 30px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 500;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-item {
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 18px;
+    color: #fff;
+    transition: color 0.5s ease, background-color 0.5s ease-in;
+}
+.header-item:hover {
+    background-color: rgb(227, 234, 240);
+    color: #0b0a0a;
+}
+
+.logo-text:hover {
+    opacity: 0.5;
+}
+mark {
+    padding: 5px;
+    border-radius: 18px;
+}
