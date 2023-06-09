@@ -34,3 +34,21 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+/* Search input  */
+.wrapper-input {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 50%;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.search-input:active {
+    outline: 3px solid blue;
+}
