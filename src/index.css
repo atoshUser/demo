@@ -52,3 +52,12 @@ body {
 .search-input:active {
     outline: 3px solid blue;
 }
+
+/* Wrapper radio */
+
+.wrapper-radio {
+    display: flex;
+}
+.wrapper-input label:not(:last-child) {
+    margin-right: 20px;
+}
